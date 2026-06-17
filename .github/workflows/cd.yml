@@ -22,4 +22,4 @@ jobs:
         run: javac -d out src/*.java
 
       - name: Ejecutar programa en Producción
-        run: java -cp out Main
+        run: java -cp out Maingit checkout develop

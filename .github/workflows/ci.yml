@@ -25,4 +25,6 @@ jobs:
         run: javac -d out src/*.java
 
       - name: Ejecutar pruebas
-        run: javac test/*.java && java -cp . MainTest
+        run: |
+          javac test/MainTest.java
+          java -cp test MainTest
